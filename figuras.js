@@ -152,3 +152,24 @@ function calcularAreaTriangulo() {
     const area = areaTriangulo(value1, value2);
     alert("El area de tu triangulo es: " + area + " cm²");
     }
+
+
+
+    // Funciones del circulo
+
+    function calcularPerimetroCirculo() {
+        const input = document.getElementById("InputCirculo");
+        const value = input.value
+
+        const perimetro = perimetroCirculo(value);
+        alert("El perimetro de tu circulo es de: " + perimetro + "cm");
+
+    }
+
+    function calcularAreaCirculo(){
+        const input = document.getElementById("InputCirculo");
+        const value = input.value;
+
+        const area = areaCirculo(value);
+        alert ("El area de tu circulo es de: " + area + "cm²");
+    }
